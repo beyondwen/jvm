@@ -12,7 +12,7 @@ package com.wenhao.jvm.classloader;
  * ldc 表示将int，float或是String 类型的常量值从常量池中推送至栈顶
  * bipush 表示将单字节 (-128~ 127)的常量值推送至栈顶
  * sipush 表示将短整型常量值 (-32768~ 32767)推送至栈顶
- * iconst_1 表示将int类型 推送至栈顶 (iconst_1 - iconst_5) 6就会变成 bipush
+ * iconst_1 表示将int类型 推送至栈顶 (iconst_m1 - iconst_5) 6就会变成 bipush/-2 也变成bipush
  */
 public class MyTest2 {
     public static void main(String[] args) {
