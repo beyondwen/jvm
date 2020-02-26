@@ -7,7 +7,6 @@ package com.wenhao.jvm.classloader;
  * -XX:+<option>,表示开启option选项
  * -XX:-<option>,表示关闭option选项
  * -XX:<option>=<value>,表示option选项的值设置为value
- *
  */
 public class Mytest1 {
     public static void main(String[] args) {
