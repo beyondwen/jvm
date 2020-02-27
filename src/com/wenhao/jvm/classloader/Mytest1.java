@@ -21,7 +21,7 @@ class MyParent1{
     }
 }
 class MyChild1 extends MyParent1{
-    public static String str = "hello world child";
+    //public static String str = "hello world child";
     static {
         System.out.println("Child block");
     }

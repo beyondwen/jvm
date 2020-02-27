@@ -14,6 +14,7 @@ public class MyTest3 {
 }
 
 class MyParent3 {
+
     public static final String str = UUID.randomUUID().toString();
 
     static {
